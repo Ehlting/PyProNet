@@ -54,7 +54,7 @@ import pypronet as ppn
 # Create a scalefree network with 10 nodes
 G = ppn.create_scalefree(maxnodes=10, step_edges=2)
 
-# Prints the density of the network
+# Print the density of the network
 print(ppn.density(graph=G))
 ```
 
